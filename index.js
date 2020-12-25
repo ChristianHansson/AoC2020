@@ -11,9 +11,13 @@ const loader = function () {
 	return {
 		DayFive() {
 			require("./five").DayFive(reader);
+		},
+		DaySix() {
+			require("./daySix").DaySix(reader);
 		}
 	}
 }
 
 console.clear();
-loader().DayFive();
+// loader().DayFive();
+loader().DaySix();
