@@ -14,10 +14,14 @@ const loader = function () {
 		},
 		DaySix() {
 			require("./daySix").DaySix(reader);
+		},
+		DaySeven() {
+			require("./daySeven").DaySeven(reader);
 		}
 	}
 }
 
 console.clear();
 // loader().DayFive();
-loader().DaySix();
+// loader().DaySix();
+loader().DaySeven();
